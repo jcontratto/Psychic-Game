@@ -1,8 +1,8 @@
-//Array of possible computer choices
+//Possible computer choices
 var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 	
 	
-//Variables for tracking players wins, losses, & guesses left
+//Players wins, losses, and guesses left
 var wins = 0;
 var losses = 0;
 var guessesLeft = 9;
@@ -10,15 +10,15 @@ var lettersGuessed = [];
 var computerGuess = [];
 
 
-//Initial computer letter
+//Computer code
 window.onload = function() {
 var compGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 computerGuess.push(compGuess);
 console.log(computerGuess[0]);
 }
 
-
-//Game
+//Need to fix duplicate letters and only select letters, still can hit numbers, shift, enter, ?, etc...
+//Actual game
 document.onkeyup = function(event) {
 var playerGuess = event.key;
 lettersGuessed.push(playerGuess);
