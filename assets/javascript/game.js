@@ -48,11 +48,11 @@ computerGuess.push(compGuess);
 console.log(computerGuess[0]);
 }
 
-var html = "<p>Guess what letter I'm thinking of!</p>" +
+var html = "<p>Bet you can't guess the letter I'm thinking!</p>" +
 "<p>Wins: " + wins + "</p>" +
 "<p>Losses: " + losses + "</p>" +
 "<p>Guesses left: " + guessesLeft + "</p>" +
-"<p>Your guesses so far: " + lettersGuessed + "</p>";
+"<p>Guesses so far: " + lettersGuessed + "</p>";
 
 document.querySelector("#game").innerHTML = html;
 
