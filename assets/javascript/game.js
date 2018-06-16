@@ -10,7 +10,7 @@ var lettersGuessed = [];
 var computerGuess = [];
 
 
-//Computer code
+//Main
 window.onload = function() {
 var compGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 computerGuess.push(compGuess);
