@@ -48,7 +48,8 @@ computerGuess.push(compGuess);
 console.log(computerGuess[0]);
 }
 
-var html = "<p>Bet you can't guess the letter I'm thinking!</p>" +
+var html = "<h3>PSYCHIC GAME</h3>" +
+"<p>Bet you can't guess the letter I'm thinking!</p>" +
 "<p>Wins: " + wins + "</p>" +
 "<p>Losses: " + losses + "</p>" +
 "<p>Guesses left: " + guessesLeft + "</p>" +
